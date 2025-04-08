@@ -8,8 +8,8 @@ import SettingsContext from './Components/SettingsContext';
 function App() {
 
   const [showSettings, setShowSettings] = useState(false);
-  const [workMinutes, setWorkMinutes] = useState(26);
-  const[breakMinutes, setBrackeMinutes] = useState(16);
+  const [workMinutes, setWorkMinutes] = useState(25);
+  const[breakMinutes, setBrackeMinutes] = useState(5);
 
   return (
     <main>
